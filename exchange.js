@@ -1,14 +1,10 @@
-dotenv.config();
-
 const amount = document.getElementById("amount");
 const oldCurrency = document.getElementById("oldCurrency");
 const newCurrency = document.getElementById("newCurrency");
 const convert = document.getElementById("convert");
 const result = document.getElementById("result");
 
-console.log(process.env.API_KEY);
-
-const apiKey = "f939z/G4ePPIM/29v1LrDQ==4FQZnz1H9dpkAXdr";
+const apiKey = "";
 
 convert.addEventListener("click", () => {
   const amountTotal = amount.value;

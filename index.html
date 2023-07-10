@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lex's Currency Exchange!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="currency_container">
+      <h3>Currency Converter</h3>
+      <div class="currency">
+        <input type="number" id="amount" placeholder="Enter amount" />
+        <p>Old Currency</p>
+        <select id="oldCurrency">
+          <option value="USD">USD</option>
+          <option value="NGN">NGN</option>
+          <option value="EUR">EUR</option>
+          <option value="CAD">CAD</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+        </select>
+
+        <p>New Currency</p>
+        <select id="newCurrency">
+          <option value="NGN">NGN</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="CAD">CAD</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+        </select>
+        <button id="convert">Convert Currency</button>
+
+        <div id="result"></div>
+      </div>
+    </section>
+    <script type="module" src="exchange.js"></script>
+  </body>
+</html>
